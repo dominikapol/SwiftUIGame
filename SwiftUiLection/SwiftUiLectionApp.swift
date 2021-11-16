@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUiLectionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(redSliderValue: 1, greenSliderValue: 1, blueSliderValue: 1, shouldShowAlert: true)
         }
     }
 }
